@@ -23,6 +23,6 @@ apt-get install -y docker-engine
 echo " Fin de l'instalation .. "
 echo "Docker start .."
 service docker start
-echo "Installation de l'image spark notebook"
-docker run -it --rm -p 8888:8888 jupyter/all-spark-notebook
+#echo "Installation de l'image spark notebook"
+#:docker run -it --rm -p 8888:8888 jupyter/all-spark-notebook
 
